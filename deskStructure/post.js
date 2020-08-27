@@ -17,7 +17,7 @@ import IframePreview from "../src/components/previews/iframe/post";
 const remoteURL =
 	"https://webriq-gatsby-cms-starter-template-sanity-5358417547.gtsb.io";
 const localURL = "http://localhost:8000";
-const previewURL = "changeme";
+const previewURL = "https://4rxys.sse.codesandbox.io";
 
 export default S.listItem()
 	.title("Blog posts")
