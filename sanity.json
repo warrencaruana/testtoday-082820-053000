@@ -1,0 +1,51 @@
+{
+  "root": true,
+  "api": {
+    "projectId": "tqrw4v7l",
+    "dataset": "production"
+  },
+  "project": {
+    "name": "WebriQ Sandbox",
+    "basePath": "/"
+  },
+  "__experimental_spaces": [
+    {
+      "name": "webriqsandbox",
+      "title": "WebriQ Sandbox",
+      "default": true,
+      "api": {
+        "projectId": "tqrw4v7l",
+        "dataset": "production"
+      }
+    }
+  ],
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "asset-source-cloudinary",
+    "markdown",
+    "dashboard-widget-gatsby",
+    "@sanity/dashboard"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schemas.js"
+    },
+    {
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "./deskStructure/index"
+    },
+    {
+      "implements": "part:@sanity/dashboard/config",
+      "path": "src/dashboardConfig.js"
+    },
+    {
+      "implements": "part:@sanity/base/brand-logo",
+      "path": "./logo/logo.js"
+    }
+  ]
+}

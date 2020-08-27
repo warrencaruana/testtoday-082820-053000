@@ -1,0 +1,13 @@
+{
+  "providers": {
+    "mode": "replace",
+    "redirectOnSingle": true,
+    "entries": [
+      {
+        "name": "sanity",
+        "title": "E-mail / password",
+        "url": "https://api.sanity.io/v1/auth/login/sanity"
+      }
+    ]
+  }
+}
