@@ -7,7 +7,7 @@ import SeoPreview from '../src/components/previews/seo/SeoPreviews'
 
 const remoteURL = 'https://gatsby-portfolio-preview-poc-4165823465.gtsb.io'
 const localURL = 'http://localhost:8000'
-const previewURL = "changeme"
+const previewURL = "https://4rxys.sse.codesandbox.io"
 
 export default S.listItem()
 	.id("projects")
