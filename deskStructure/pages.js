@@ -5,7 +5,7 @@ import EditIcon from 'part:@sanity/base/edit-icon'
 import EyeIcon from 'part:@sanity/base/eye-icon'
 import SeoPreview from '../src/components/previews/seo/SeoPreviews'
 import IframePreview from "../src/components/previews/iframe/page";
-const previewURL = "changeme"
+const previewURL = "https://4rxys.sse.codesandbox.io"
 
 export default S.listItem()
 	.title("Pages")
